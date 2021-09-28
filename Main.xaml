@@ -1,4 +1,4 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="Main" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="875,1140" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=mscorlib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="776.834355828221,1586.06134969325" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=mscorlib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <TextExpression.NamespacesForImplementation>
     <scg:List x:TypeArguments="x:String" Capacity="58">
       <x:String>System.Activities</x:String>
@@ -35,6 +35,7 @@
       <x:String>System.Management.Automation</x:String>
       <x:String>System.Dynamic</x:String>
       <x:String>System.ComponentModel</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
     </scg:List>
   </TextExpression.NamespacesForImplementation>
   <TextExpression.ReferencesForImplementation>
@@ -74,27 +75,38 @@
       <AssemblyReference>UiPath.System.Activities.Design</AssemblyReference>
       <AssemblyReference>UiPath.CV</AssemblyReference>
       <AssemblyReference>System.Configuration.Install</AssemblyReference>
-      <AssemblyReference>System.Runtime.WindowsRuntime</AssemblyReference>
       <AssemblyReference>System.Management.Automation</AssemblyReference>
     </scg:List>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Main" sap:VirtualizedContainerService.HintSize="526,1075" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="Main" sap:VirtualizedContainerService.HintSize="526.527607361963,1521.27607361963" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:Boolean" Default="True" Name="g_running" />
       <Variable x:TypeArguments="x:Int32" Default="5000" Name="g_timeout" />
-      <Variable x:TypeArguments="x:TimeSpan" Default="00:00:06" Name="g_delay" />
+      <Variable x:TypeArguments="x:TimeSpan" Default="00:00:12" Name="g_delay" />
     </Sequence.Variables>
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <If Condition="[Process.GetProcessesByName(&quot;Teams&quot;).Length &lt; 1]" DisplayName="If Teams Process not exist" sap:VirtualizedContainerService.HintSize="484,237" sap2010:WorkflowViewState.IdRef="If_1">
+    <If Condition="[Process.GetProcessesByName(&quot;Teams&quot;).Length &lt; 1]" DisplayName="If Teams Process not exist" sap:VirtualizedContainerService.HintSize="484.122699386503,236.760736196319" sap2010:WorkflowViewState.IdRef="If_1">
       <If.Then>
-        <ui:InvokePowerShell x:TypeArguments="x:String" ContinueOnError="{x:Null}" CommandText="[Environment.GetEnvironmentVariable(&quot;LocalAppData&quot;) + &quot;\Microsoft\Teams\Update.exe --processStart &quot;&quot;Teams.exe&quot;&quot;&quot;]" DisplayName="Start Teams" sap:VirtualizedContainerService.HintSize="334,59" sap2010:WorkflowViewState.IdRef="InvokePowerShell`1_1" IsScript="True" />
+        <ui:InvokePowerShell x:TypeArguments="x:String" ContinueOnError="{x:Null}" CommandText="[Environment.GetEnvironmentVariable(&quot;LocalAppData&quot;) + &quot;\Microsoft\Teams\Update.exe --processStart &quot;&quot;Teams.exe&quot;&quot;&quot;]" DisplayName="Start Teams" sap:VirtualizedContainerService.HintSize="333.938650306748,58.8957055214724" sap2010:WorkflowViewState.IdRef="InvokePowerShell`1_1" IsScript="True" />
       </If.Then>
     </If>
-    <Delay mva:VisualBasic.Settings="{x:Null}" DisplayName="Delay 5 seconds" Duration="00:00:05" sap:VirtualizedContainerService.HintSize="484,22" sap2010:WorkflowViewState.IdRef="Delay_1">
+    <ui:Activate DelayBefore="{x:Null}" DelayMS="{x:Null}" DisplayName="Activate Team" sap:VirtualizedContainerService.HintSize="484.122699386503,67.7300613496932" sap2010:WorkflowViewState.IdRef="Activate_1">
+      <ui:Activate.Target>
+        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="3bd43fc8-7ab0-4e0a-9973-877a1dd5e77f" Selector="&lt;wnd app='teams.exe' cls='*' title='*[QSP]' /&gt;&lt;wnd cls='Chrome_RenderWidgetHostHWND' title='*' /&gt;">
+          <ui:Target.TimeoutMS>
+            <InArgument x:TypeArguments="x:Int32" />
+          </ui:Target.TimeoutMS>
+          <ui:Target.WaitForReady>
+            <InArgument x:TypeArguments="ui:WaitForReady" />
+          </ui:Target.WaitForReady>
+        </ui:Target>
+      </ui:Activate.Target>
+    </ui:Activate>
+    <Delay mva:VisualBasic.Settings="{x:Null}" DisplayName="Delay 5 seconds" Duration="00:00:05" sap:VirtualizedContainerService.HintSize="484.122699386503,21.7914110429448" sap2010:WorkflowViewState.IdRef="Delay_1">
       <TextExpression.Namespaces>
         <sco:Collection x:TypeArguments="x:String">
           <x:String>System.Activities</x:String>
@@ -140,30 +152,35 @@
         </sap2010:ViewStateManager>
       </sap2010:WorkflowViewState.ViewStateManager>
     </Delay>
-    <ui:Click AlterIfDisabled="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" ContinueOnError="True" DisplayName="Click Files Menu" sap:VirtualizedContainerService.HintSize="484,106" sap2010:WorkflowViewState.IdRef="Click_2" KeyModifiers="None" MouseButton="BTN_LEFT">
-      <ui:Click.CursorPosition>
-        <ui:CursorPosition Position="Center">
-          <ui:CursorPosition.OffsetX>
-            <InArgument x:TypeArguments="x:Int32" />
-          </ui:CursorPosition.OffsetX>
-          <ui:CursorPosition.OffsetY>
-            <InArgument x:TypeArguments="x:Int32" />
-          </ui:CursorPosition.OffsetY>
-        </ui:CursorPosition>
-      </ui:Click.CursorPosition>
-      <ui:Click.Target>
-        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="4aa0269e-5a3d-4abf-aced-d8cfa6fa0612" InformativeScreenshot="9b864186534ff5dbaf0a18289567786f" Selector="&lt;wnd app='teams.exe' cls='*' title='*Microsoft Teams' /&gt;&lt;ctrl name='Files Toolbar' role='push button' /&gt;" TimeoutMS="[g_timeout]">
-          <ui:Target.WaitForReady>
-            <InArgument x:TypeArguments="ui:WaitForReady" />
-          </ui:Target.WaitForReady>
-        </ui:Target>
-      </ui:Click.Target>
-    </ui:Click>
-    <ui:InterruptibleDoWhile Condition="[g_running]" DisplayName="Do While" sap:VirtualizedContainerService.HintSize="484,498" sap2010:WorkflowViewState.IdRef="InterruptibleDoWhile_1">
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Team" sap:VirtualizedContainerService.HintSize="484.122699386503,443.484662576687" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" ScopeGuid="ebf5f4e4-0838-43b4-babf-8c25700ae7b2" ScopeIdentifier="teams.exe – Punnipa Phoochomjit | Microsoft Teams [QSP]" Version="V1">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <uix:NClick ClickType="Single" DisplayName="Click Files" sap:VirtualizedContainerService.HintSize="333.938650306748,155.484662576687" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="ebf5f4e4-0838-43b4-babf-8c25700ae7b2" Version="V1">
+            <uix:NClick.Target>
+              <uix:TargetAnchorable DesignTimeRectangle="12, 378, 116, 96" ElementType="Button" FriendlyName="'push button'" FullSelectorArgument="&lt;ctrl name='*' role='document' /&gt;&lt;ctrl name='Files Toolbar' role='push button' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Punnipa Phoochomjit | Microsoft Teams' role='document' /&gt;&lt;ctrl name='App bar, use up or down arrow keys to navigate through the contr*' role='grouping' /&gt;&lt;ctrl name='Files Toolbar' role='push button' automationid='' /&gt;" Guid="50332183-78ac-4c85-a86f-c790c895d0a6" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAHgAAABkCAYAAABNcPQyAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAGREAABkRAZCHpWgAAAPYSURBVHhe7dsxLyxRAMXxV6K1nWglKqVadFqJj6CVqLQ0PgClhkal8QXnvbOZY655Z3Z3EHP37NnkH8bcuZP4mbusnT98NP8e7+/vzc7OTqq07e3twba2tj6azWYftbwBXocULAuwQQqWBdggBcsCbJCCZQE2SMGyABukYFmADVKwLMAGKVgWYIMULAuwQQqWBdggBcsCbJCCZQE2SMGyABukYFmADVKwLMAGKVgWYIMULAuwQQqWBdggBcsCbJCCZQE2SMEye+Dd3d3m6Oho5dQctadgmS0wYK+urpqnp6dRPTw8NMfHx3LOWlOwzBIYuLe3tx9od3d3zc3NzcJKZHRyciLnrjEFyyyBz87O5kiPj4/N/v6+HNOPsPhhWDdkBcssgbk0n5+fy/0qouJ5+PLycq2QFSyzBOaS+1VgbK8TsoJlAW7rA6N1QVawLMBtChitA7KCZQFuGwJGtSMrWBbgtkXAqGZkBcsC3IY/qXDMohc5SuShH4QpUrAswG3EwytZOH4oAmO8mmeKFCwLcBte/SoBl4Wxap4pUrAswL0ODg7my+9QfJUswBP2HeBlATnAExfgrgCPLMAVFOCuAI8swBUU4K4AjyzAFRTgrgCPLMAVFOCuAI8swBUU4K4AjyzAFRTgrgCPLMAVFOAuS+Cv3NmwapgTc+Mcav8UKVhmCcx3XeD9Vavem7RKmAtzYm6cQ42ZIgXLLIFReRMZ7jTEkvqd+ncrqnNOlYJltsBfvT94WZgTc6tzTpWCZbbAZfjF6CdSc9eQgmUbAeyegmUBNkjBsgAbpGBZgA1SsCzABilYFmCDFCzbGOC9vb35LaL39/eftq+vr/8bu24pWGYDfHh42Dw/Pzdvb2+fen19bU5PTwPsArwqWIDbR4DrT8GyjQHugw4BYznHss4lftl+nBPnLsf8dgqWBbgYf3FxMUfDR2z35+Q29yP8pynAvxC/+byyGBCBuQyY2/wljAGTV2n5eTlm6hQsswMur8iyZcBcesurk19/eXmZf+Q5cByOL8dNmYJlAe4B91cAxD+1MI7nwddruZoVLAtwAcwrtTxuKB5f4k+VgmUBHtheJZ6zv6z/dgqWBbgYDygsvSUYrk68H4v7y334PFfwL/UTwIjI6vl30b4pU7DMBniTU7AswAYpWBZggxQsC7BBCpYF2CAFywJskIJlATZIwbIAG6RgWYANUrAswAYpWBZggxQsC7BBCpYF2CAFywJskIJlATZIwbIAG6RgWYANUrAswAYpWBZggxQsC7BBCpYF2CAFywJskIJlATZIwbIAG6RgmQaeNX8BmmzkHk+DUmQAAAAASUVORK5CYII=" ScopeSelectorArgument="&lt;wnd app='teams.exe' cls='Chrome_WidgetWin_1' title='Punnipa Phoochomjit | Microsoft Teams [QSP]' /&gt;" SearchSteps="Selector, FuzzySelector, Image">
+                <uix:TargetAnchorable.Anchors>
+                  <scg:List x:TypeArguments="uix:ITarget" Capacity="0" />
+                </uix:TargetAnchorable.Anchors>
+                <uix:TargetAnchorable.PointOffset>
+                  <uix:PointOffset X="4" Y="-2" />
+                </uix:TargetAnchorable.PointOffset>
+              </uix:TargetAnchorable>
+            </uix:NClick.Target>
+          </uix:NClick>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="-12, -12, 2584, 1396" IconBase64="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" Selector="&lt;wnd app='teams.exe' cls='Chrome_WidgetWin_1' title='Punnipa Phoochomjit | Microsoft Teams [QSP]' /&gt;" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+    <ui:InterruptibleDoWhile Condition="[g_running]" DisplayName="Do While" sap:VirtualizedContainerService.HintSize="484.122699386503,498.846625766871" sap2010:WorkflowViewState.IdRef="InterruptibleDoWhile_1">
       <ui:InterruptibleDoWhile.Body>
-        <TryCatch sap:VirtualizedContainerService.HintSize="438,333" sap2010:WorkflowViewState.IdRef="TryCatch_1">
+        <TryCatch sap:VirtualizedContainerService.HintSize="438.184049079755,333.938650306748" sap2010:WorkflowViewState.IdRef="TryCatch_1">
           <TryCatch.Try>
-            <ui:Click AlterIfDisabled="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" ContinueOnError="False" DisplayName="Click Org Name" sap:VirtualizedContainerService.HintSize="334,106" sap2010:WorkflowViewState.IdRef="Click_3" KeyModifiers="None" MouseButton="BTN_LEFT">
+            <ui:Click AlterIfDisabled="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" ContinueOnError="False" DisplayName="Click Org Name" sap:VirtualizedContainerService.HintSize="333.938650306748,106.01226993865" sap2010:WorkflowViewState.IdRef="Click_3" KeyModifiers="None" MouseButton="BTN_LEFT">
               <ui:Click.CursorPosition>
                 <ui:CursorPosition Position="Center">
                   <ui:CursorPosition.OffsetX>
@@ -184,7 +201,7 @@
             </ui:Click>
           </TryCatch.Try>
           <TryCatch.Catches>
-            <Catch x:TypeArguments="s:Exception" sap:VirtualizedContainerService.HintSize="404,21" sap2010:WorkflowViewState.IdRef="Catch`1_1">
+            <Catch x:TypeArguments="s:Exception" sap:VirtualizedContainerService.HintSize="404.024539877301,20.6134969325153" sap2010:WorkflowViewState.IdRef="Catch`1_1">
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                   <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -195,13 +212,13 @@
                 <ActivityAction.Argument>
                   <DelegateInArgument x:TypeArguments="s:Exception" Name="exception" />
                 </ActivityAction.Argument>
-                <Sequence sap:VirtualizedContainerService.HintSize="304,253" sap2010:WorkflowViewState.IdRef="Sequence_3">
+                <Sequence sap:VirtualizedContainerService.HintSize="304.490797546012,252.073619631902" sap2010:WorkflowViewState.IdRef="Sequence_3">
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
-                  <Assign sap:VirtualizedContainerService.HintSize="262,60" sap2010:WorkflowViewState.IdRef="Assign_1">
+                  <Assign sap:VirtualizedContainerService.HintSize="262.085889570552,59.4846625766871" sap2010:WorkflowViewState.IdRef="Assign_1">
                     <Assign.To>
                       <OutArgument x:TypeArguments="x:Boolean">[g_running]</OutArgument>
                     </Assign.To>
@@ -209,7 +226,7 @@
                       <InArgument x:TypeArguments="x:Boolean">False</InArgument>
                     </Assign.Value>
                   </Assign>
-                  <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="262,61" sap2010:WorkflowViewState.IdRef="WriteLine_2" Text="False" />
+                  <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="262.085889570552,60.6625766871166" sap2010:WorkflowViewState.IdRef="WriteLine_2" Text="False" />
                 </Sequence>
               </ActivityAction>
             </Catch>

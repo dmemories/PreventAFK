@@ -56,8 +56,47 @@
     },
     {
       "Package": {
+        "Id": "UiPath.UIAutomation.Activities",
+        "Version": "21.8.0-preview"
+      },
+      "Assemblies": [
+        "C:\\Users\\Alkaiser\\.nuget\\packages\\newtonsoft.json/11.0.2\\lib/net45/Newtonsoft.Json.dll",
+        "C:\\Users\\Alkaiser\\.nuget\\packages\\system.io.abstractions/3.0.10\\lib/net40/System.IO.Abstractions.dll",
+        "C:\\Users\\Alkaiser\\.nuget\\packages\\system.threading.tasks.dataflow/5.0.0\\lib/net461/System.Threading.Tasks.Dataflow.dll",
+        "C:\\Users\\Alkaiser\\.nuget\\packages\\system.valuetuple/4.5.0\\lib/net461/System.ValueTuple.dll",
+        "C:\\Users\\Alkaiser\\.nuget\\packages\\uipath/21.8.27.26297-preview\\lib/net45/System.Runtime.CompilerServices.Unsafe.dll",
+        "C:\\Users\\Alkaiser\\.nuget\\packages\\uipath/21.8.27.26297-preview\\lib/net45/System.Threading.Tasks.Extensions.dll",
+        "C:\\Users\\Alkaiser\\.nuget\\packages\\uipath/21.8.27.26297-preview\\lib/net45/UiPath.Interop.dll",
+        "C:\\Users\\Alkaiser\\.nuget\\packages\\uipath.imageprocessing/21.8.0-preview\\lib/net461/UiPath.ImageProcessingInterop.dll",
+        "C:\\Users\\Alkaiser\\.nuget\\packages\\uipath.ocr.activities/3.3.0-preview\\lib/net461/UiPath.OCR.Activities.Design.dll",
+        "C:\\Users\\Alkaiser\\.nuget\\packages\\uipath.ocr.activities/3.3.0-preview\\lib/net461/UiPath.OCR.Activities.dll",
+        "C:\\Users\\Alkaiser\\.nuget\\packages\\uipath.ocr.activities/3.3.0-preview\\lib/net461/UiPath.OCR.Core.dll",
+        "C:\\Users\\Alkaiser\\.nuget\\packages\\uipath.ocr.contracts/2.9.0-preview\\lib/net461/UiPath.OCR.Contracts.dll",
+        "C:\\Users\\Alkaiser\\.nuget\\packages\\uipath.platform/21.8.0-preview\\lib/net461/UiPath.Platform.dll",
+        "C:\\Users\\Alkaiser\\.nuget\\packages\\uipath.telemetry.client/1.3.18\\lib/net461/TelemetryClient.dll",
+        "C:\\Users\\Alkaiser\\.nuget\\packages\\uipath.uiautomation.activities/21.8.0-preview\\lib/net461/UiPath.CV.Activities.Design.dll",
+        "C:\\Users\\Alkaiser\\.nuget\\packages\\uipath.uiautomation.activities/21.8.0-preview\\lib/net461/UiPath.CV.Activities.dll",
+        "C:\\Users\\Alkaiser\\.nuget\\packages\\uipath.uiautomation.activities/21.8.0-preview\\lib/net461/UiPath.CV.dll",
+        "C:\\Users\\Alkaiser\\.nuget\\packages\\uipath.uiautomation.activities/21.8.0-preview\\lib/net461/UiPath.UIAutomation.Activities.Design.dll",
+        "C:\\Users\\Alkaiser\\.nuget\\packages\\uipath.uiautomation.activities/21.8.0-preview\\lib/net461/UiPath.UiAutomation.Activities.dll",
+        "C:\\Users\\Alkaiser\\.nuget\\packages\\uipath.uiautomation.activities/21.8.0-preview\\lib/net461/UiPath.UIAutomationCore.dll",
+        "C:\\Users\\Alkaiser\\.nuget\\packages\\uipath.uiautomation.activities/21.8.0-preview\\lib/net461/UiPath.UIAutomationNext.Activities.Design.dll",
+        "C:\\Users\\Alkaiser\\.nuget\\packages\\uipath.uiautomation.activities/21.8.0-preview\\lib/net461/UiPath.UIAutomationNext.Activities.dll",
+        "C:\\Users\\Alkaiser\\.nuget\\packages\\uipath.uiautomation.activities/21.8.0-preview\\lib/net461/UiPath.UIAutomationNext.dll",
+        "C:\\Users\\Alkaiser\\.nuget\\packages\\uipath.uiautomation.activities/21.8.0-preview\\lib/net461/UiPath.Wizards.dll",
+        "C:\\Users\\Alkaiser\\.nuget\\packages\\uipath.vision/3.1.0-preview\\lib/net461/UiPath.Vision.AzureComputerVision.dll",
+        "C:\\Users\\Alkaiser\\.nuget\\packages\\uipath.vision/3.1.0-preview\\lib/net461/UiPath.Vision.Core.dll",
+        "C:\\Users\\Alkaiser\\.nuget\\packages\\uipath.vision/3.1.0-preview\\lib/net461/UiPath.Vision.dll",
+        "C:\\Users\\Alkaiser\\.nuget\\packages\\uipath.vision/3.1.0-preview\\lib/net461/UiPath.Vision.GoogleCloud.dll",
+        "C:\\Users\\Alkaiser\\.nuget\\packages\\uipath.vision/3.1.0-preview\\lib/net461/UiPath.Vision.Microsoft.dll",
+        "C:\\Users\\Alkaiser\\.nuget\\packages\\uipath.vision/3.1.0-preview\\lib/net461/UiPath.Vision.Tesseract.dll"
+      ],
+      "Path": "C:\\Users\\Alkaiser\\.nuget\\packages\\uipath.uiautomation.activities\\21.8.0-preview"
+    },
+    {
+      "Package": {
         "Id": "UiPath.System.Activities",
-        "Version": "21.4.1"
+        "Version": "21.8.0-preview"
       },
       "Assemblies": [
         "C:\\Users\\Alkaiser\\.nuget\\packages\\csvhelper/16.0.0\\lib/net45/CsvHelper.dll",
@@ -71,6 +110,9 @@
         "C:\\Users\\Alkaiser\\.nuget\\packages\\microsoft.aspnetcore.signalr.common/3.1.6\\lib/netstandard2.0/Microsoft.AspNetCore.SignalR.Common.dll",
         "C:\\Users\\Alkaiser\\.nuget\\packages\\microsoft.aspnetcore.signalr.protocols.json/3.1.6\\lib/netstandard2.0/Microsoft.AspNetCore.SignalR.Protocols.Json.dll",
         "C:\\Users\\Alkaiser\\.nuget\\packages\\microsoft.bcl.asyncinterfaces/1.1.1\\lib/net461/Microsoft.Bcl.AsyncInterfaces.dll",
+        "C:\\Users\\Alkaiser\\.nuget\\packages\\microsoft.codeanalysis.common/3.8.0\\lib/netstandard2.0/Microsoft.CodeAnalysis.dll",
+        "C:\\Users\\Alkaiser\\.nuget\\packages\\microsoft.codeanalysis.csharp/3.8.0\\lib/netstandard2.0/Microsoft.CodeAnalysis.CSharp.dll",
+        "C:\\Users\\Alkaiser\\.nuget\\packages\\microsoft.codeanalysis.visualbasic/3.8.0\\lib/netstandard2.0/Microsoft.CodeAnalysis.VisualBasic.dll",
         "C:\\Users\\Alkaiser\\.nuget\\packages\\microsoft.extensions.configuration/3.1.6\\lib/netstandard2.0/Microsoft.Extensions.Configuration.dll",
         "C:\\Users\\Alkaiser\\.nuget\\packages\\microsoft.extensions.configuration.abstractions/3.1.6\\lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.dll",
         "C:\\Users\\Alkaiser\\.nuget\\packages\\microsoft.extensions.configuration.binder/3.1.6\\lib/netstandard2.0/Microsoft.Extensions.Configuration.Binder.dll",
@@ -84,84 +126,33 @@
         "C:\\Users\\Alkaiser\\.nuget\\packages\\newtonsoft.json/11.0.2\\lib/net45/Newtonsoft.Json.dll",
         "C:\\Users\\Alkaiser\\.nuget\\packages\\sharpziplib/1.2.0\\lib/net45/ICSharpCode.SharpZipLib.dll",
         "C:\\Users\\Alkaiser\\.nuget\\packages\\system.buffers/4.5.1\\lib/net461/System.Buffers.dll",
+        "C:\\Users\\Alkaiser\\.nuget\\packages\\system.collections.immutable/5.0.0\\lib/net461/System.Collections.Immutable.dll",
         "C:\\Users\\Alkaiser\\.nuget\\packages\\system.componentmodel.annotations/4.7.0\\lib/net461/System.ComponentModel.Annotations.dll",
         "C:\\Users\\Alkaiser\\.nuget\\packages\\system.io.abstractions/3.0.10\\lib/net40/System.IO.Abstractions.dll",
         "C:\\Users\\Alkaiser\\.nuget\\packages\\system.io.pipelines/4.7.1\\lib/netstandard2.0/System.IO.Pipelines.dll",
         "C:\\Users\\Alkaiser\\.nuget\\packages\\system.management.automation/6.1.7601.17515\\lib/net45/System.Management.Automation.dll",
         "C:\\Users\\Alkaiser\\.nuget\\packages\\system.memory/4.5.4\\lib/net461/System.Memory.dll",
         "C:\\Users\\Alkaiser\\.nuget\\packages\\system.numerics.vectors/4.5.0\\lib/net46/System.Numerics.Vectors.dll",
+        "C:\\Users\\Alkaiser\\.nuget\\packages\\system.reflection.metadata/5.0.0\\lib/net461/System.Reflection.Metadata.dll",
         "C:\\Users\\Alkaiser\\.nuget\\packages\\system.runtime.compilerservices.unsafe/4.7.1\\lib/net461/System.Runtime.CompilerServices.Unsafe.dll",
+        "C:\\Users\\Alkaiser\\.nuget\\packages\\system.text.encoding.codepages/4.5.1\\runtimes/win/lib/net461/System.Text.Encoding.CodePages.dll",
         "C:\\Users\\Alkaiser\\.nuget\\packages\\system.text.encodings.web/4.7.1\\lib/net461/System.Text.Encodings.Web.dll",
         "C:\\Users\\Alkaiser\\.nuget\\packages\\system.text.json/4.7.2\\lib/net461/System.Text.Json.dll",
         "C:\\Users\\Alkaiser\\.nuget\\packages\\system.threading.channels/4.7.1\\lib/net461/System.Threading.Channels.dll",
         "C:\\Users\\Alkaiser\\.nuget\\packages\\system.threading.tasks.dataflow/5.0.0\\lib/net461/System.Threading.Tasks.Dataflow.dll",
         "C:\\Users\\Alkaiser\\.nuget\\packages\\system.threading.tasks.extensions/4.5.4\\lib/net461/System.Threading.Tasks.Extensions.dll",
         "C:\\Users\\Alkaiser\\.nuget\\packages\\system.valuetuple/4.5.0\\lib/net461/System.ValueTuple.dll",
-        "C:\\Users\\Alkaiser\\.nuget\\packages\\uipath.platform/21.4.0\\lib/net461/UiPath.Platform.dll",
-        "C:\\Users\\Alkaiser\\.nuget\\packages\\uipath.system.activities/21.4.1\\lib/net461/UiPath.OrchestratorClient.dll",
-        "C:\\Users\\Alkaiser\\.nuget\\packages\\uipath.system.activities/21.4.1\\lib/net461/UiPath.System.Activities.Design.dll",
-        "C:\\Users\\Alkaiser\\.nuget\\packages\\uipath.system.activities/21.4.1\\lib/net461/UiPath.System.Activities.dll",
+        "C:\\Users\\Alkaiser\\.nuget\\packages\\uipath.platform/21.8.0-preview\\lib/net461/UiPath.Platform.dll",
+        "C:\\Users\\Alkaiser\\.nuget\\packages\\uipath.system.activities/21.8.0-preview\\lib/net461/UiPath.OrchestratorClient.dll",
+        "C:\\Users\\Alkaiser\\.nuget\\packages\\uipath.system.activities/21.8.0-preview\\lib/net461/UiPath.System.Activities.Design.dll",
+        "C:\\Users\\Alkaiser\\.nuget\\packages\\uipath.system.activities/21.8.0-preview\\lib/net461/UiPath.System.Activities.dll",
         "C:\\Users\\Alkaiser\\.nuget\\packages\\uipath.telemetry.client/1.3.18\\lib/net461/TelemetryClient.dll"
       ],
-      "Path": "C:\\Users\\Alkaiser\\.nuget\\packages\\uipath.system.activities\\21.4.1"
-    },
-    {
-      "Package": {
-        "Id": "UiPath.UIAutomation.Activities",
-        "Version": "20.4.3"
-      },
-      "Assemblies": [
-        "C:\\Users\\Alkaiser\\.nuget\\packages\\avalonedit/5.0.3\\lib/Net40/ICSharpCode.AvalonEdit.dll",
-        "C:\\Users\\Alkaiser\\.nuget\\packages\\extended.wpf.toolkit/2.8.0\\lib/net40/Xceed.Wpf.AvalonDock.dll",
-        "C:\\Users\\Alkaiser\\.nuget\\packages\\extended.wpf.toolkit/2.8.0\\lib/net40/Xceed.Wpf.AvalonDock.Themes.Aero.dll",
-        "C:\\Users\\Alkaiser\\.nuget\\packages\\extended.wpf.toolkit/2.8.0\\lib/net40/Xceed.Wpf.AvalonDock.Themes.Metro.dll",
-        "C:\\Users\\Alkaiser\\.nuget\\packages\\extended.wpf.toolkit/2.8.0\\lib/net40/Xceed.Wpf.AvalonDock.Themes.VS2010.dll",
-        "C:\\Users\\Alkaiser\\.nuget\\packages\\extended.wpf.toolkit/2.8.0\\lib/net40/Xceed.Wpf.DataGrid.dll",
-        "C:\\Users\\Alkaiser\\.nuget\\packages\\extended.wpf.toolkit/2.8.0\\lib/net40/Xceed.Wpf.Toolkit.dll",
-        "C:\\Users\\Alkaiser\\.nuget\\packages\\humanizer.core/2.4.2\\lib/netstandard2.0/Humanizer.dll",
-        "C:\\Users\\Alkaiser\\.nuget\\packages\\newtonsoft.json/11.0.2\\lib/net45/Newtonsoft.Json.dll",
-        "C:\\Users\\Alkaiser\\.nuget\\packages\\system.io.abstractions/3.0.10\\lib/net40/System.IO.Abstractions.dll",
-        "C:\\Users\\Alkaiser\\.nuget\\packages\\system.threading.tasks.dataflow/5.0.0\\lib/net461/System.Threading.Tasks.Dataflow.dll",
-        "C:\\Users\\Alkaiser\\.nuget\\packages\\system.valuetuple/4.5.0\\lib/net461/System.ValueTuple.dll",
-        "C:\\Users\\Alkaiser\\.nuget\\packages\\uipath/20.4.7537.15740\\lib/UiPath.Interop.dll",
-        "C:\\Users\\Alkaiser\\.nuget\\packages\\uipath.ocr.contracts/2.6.0\\lib/net461/UiPath.OCR.Contracts.dll",
-        "C:\\Users\\Alkaiser\\.nuget\\packages\\uipath.platform/21.4.0\\lib/net461/UiPath.Platform.dll",
-        "C:\\Users\\Alkaiser\\.nuget\\packages\\uipath.telemetry.client/1.3.18\\lib/net461/TelemetryClient.dll",
-        "C:\\Users\\Alkaiser\\.nuget\\packages\\uipath.uiautomation.activities/20.4.3\\lib/net461/ActiproSoftware.DataGrid.Contrib.Wpf.dll",
-        "C:\\Users\\Alkaiser\\.nuget\\packages\\uipath.uiautomation.activities/20.4.3\\lib/net461/ActiproSoftware.Docking.Wpf.dll",
-        "C:\\Users\\Alkaiser\\.nuget\\packages\\uipath.uiautomation.activities/20.4.3\\lib/net461/ActiproSoftware.Editors.Wpf.dll",
-        "C:\\Users\\Alkaiser\\.nuget\\packages\\uipath.uiautomation.activities/20.4.3\\lib/net461/ActiproSoftware.Ribbon.Wpf.dll",
-        "C:\\Users\\Alkaiser\\.nuget\\packages\\uipath.uiautomation.activities/20.4.3\\lib/net461/ActiproSoftware.Shared.Wpf.dll",
-        "C:\\Users\\Alkaiser\\.nuget\\packages\\uipath.uiautomation.activities/20.4.3\\lib/net461/ActiproSoftware.SyntaxEditor.Addons.DotNet.Wpf.dll",
-        "C:\\Users\\Alkaiser\\.nuget\\packages\\uipath.uiautomation.activities/20.4.3\\lib/net461/ActiproSoftware.SyntaxEditor.Wpf.dll",
-        "C:\\Users\\Alkaiser\\.nuget\\packages\\uipath.uiautomation.activities/20.4.3\\lib/net461/ActiproSoftware.Text.Addons.DotNet.Wpf.dll",
-        "C:\\Users\\Alkaiser\\.nuget\\packages\\uipath.uiautomation.activities/20.4.3\\lib/net461/ActiproSoftware.Text.LLParser.Wpf.dll",
-        "C:\\Users\\Alkaiser\\.nuget\\packages\\uipath.uiautomation.activities/20.4.3\\lib/net461/ActiproSoftware.Text.Wpf.dll",
-        "C:\\Users\\Alkaiser\\.nuget\\packages\\uipath.uiautomation.activities/20.4.3\\lib/net461/ActiproSoftware.Wizard.Wpf.dll",
-        "C:\\Users\\Alkaiser\\.nuget\\packages\\uipath.uiautomation.activities/20.4.3\\lib/net461/UiPath.CV.Activities.Design.dll",
-        "C:\\Users\\Alkaiser\\.nuget\\packages\\uipath.uiautomation.activities/20.4.3\\lib/net461/UiPath.CV.Activities.dll",
-        "C:\\Users\\Alkaiser\\.nuget\\packages\\uipath.uiautomation.activities/20.4.3\\lib/net461/UiPath.CV.dll",
-        "C:\\Users\\Alkaiser\\.nuget\\packages\\uipath.uiautomation.activities/20.4.3\\lib/net461/UiPath.UIAutomation.Activities.Design.dll",
-        "C:\\Users\\Alkaiser\\.nuget\\packages\\uipath.uiautomation.activities/20.4.3\\lib/net461/UiPath.UiAutomation.Activities.dll",
-        "C:\\Users\\Alkaiser\\.nuget\\packages\\uipath.uiautomation.activities/20.4.3\\lib/net461/UiPath.Wizards.dll",
-        "C:\\Users\\Alkaiser\\.nuget\\packages\\uipath.vision/2.0.3\\lib/net461/UiPath.Vision.AzureComputerVision.dll",
-        "C:\\Users\\Alkaiser\\.nuget\\packages\\uipath.vision/2.0.3\\lib/net461/UiPath.Vision.Core.dll",
-        "C:\\Users\\Alkaiser\\.nuget\\packages\\uipath.vision/2.0.3\\lib/net461/UiPath.Vision.dll",
-        "C:\\Users\\Alkaiser\\.nuget\\packages\\uipath.vision/2.0.3\\lib/net461/UiPath.Vision.GoogleCloud.dll",
-        "C:\\Users\\Alkaiser\\.nuget\\packages\\uipath.vision/2.0.3\\lib/net461/UiPath.Vision.Microsoft.dll",
-        "C:\\Users\\Alkaiser\\.nuget\\packages\\uipath.vision/2.0.3\\lib/net461/UiPath.Vision.MicrosoftCloud.dll",
-        "C:\\Users\\Alkaiser\\.nuget\\packages\\uipath.vision/2.0.3\\lib/net461/UiPath.Vision.Tesseract.dll"
-      ],
-      "Path": "C:\\Users\\Alkaiser\\.nuget\\packages\\uipath.uiautomation.activities\\20.4.3"
+      "Path": "C:\\Users\\Alkaiser\\.nuget\\packages\\uipath.system.activities\\21.8.0-preview"
     }
   ],
   "Conflicts": [],
   "ResolvedDependencies": {
-    "AvalonEdit": {
-      "Id": "AvalonEdit",
-      "Version": "5.0.3",
-      "Dependencies": []
-    },
     "ClosedXML": {
       "Id": "ClosedXML",
       "Version": "0.87.1",
@@ -189,11 +180,6 @@
     "DocumentFormat.OpenXml": {
       "Id": "DocumentFormat.OpenXml",
       "Version": "2.5.0",
-      "Dependencies": []
-    },
-    "Extended.Wpf.Toolkit": {
-      "Id": "Extended.Wpf.Toolkit",
-      "Version": "2.8.0",
       "Dependencies": []
     },
     "Google.Apis": {
@@ -275,11 +261,6 @@
           "Item2": "[1.43.0, )"
         }
       ]
-    },
-    "Humanizer.Core": {
-      "Id": "Humanizer.Core",
-      "Version": "2.4.2",
-      "Dependencies": []
     },
     "MailKit": {
       "Id": "MailKit",
@@ -447,6 +428,65 @@
         }
       ]
     },
+    "Microsoft.CodeAnalysis.Analyzers": {
+      "Id": "Microsoft.CodeAnalysis.Analyzers",
+      "Version": "3.0.0",
+      "Dependencies": []
+    },
+    "Microsoft.CodeAnalysis.Common": {
+      "Id": "Microsoft.CodeAnalysis.Common",
+      "Version": "3.8.0",
+      "Dependencies": [
+        {
+          "Item1": "Microsoft.CodeAnalysis.Analyzers",
+          "Item2": "[3.0.0, )"
+        },
+        {
+          "Item1": "System.Collections.Immutable",
+          "Item2": "[5.0.0, )"
+        },
+        {
+          "Item1": "System.Memory",
+          "Item2": "[4.5.4, )"
+        },
+        {
+          "Item1": "System.Reflection.Metadata",
+          "Item2": "[5.0.0, )"
+        },
+        {
+          "Item1": "System.Runtime.CompilerServices.Unsafe",
+          "Item2": "[4.7.1, )"
+        },
+        {
+          "Item1": "System.Text.Encoding.CodePages",
+          "Item2": "[4.5.1, )"
+        },
+        {
+          "Item1": "System.Threading.Tasks.Extensions",
+          "Item2": "[4.5.4, )"
+        }
+      ]
+    },
+    "Microsoft.CodeAnalysis.CSharp": {
+      "Id": "Microsoft.CodeAnalysis.CSharp",
+      "Version": "3.8.0",
+      "Dependencies": [
+        {
+          "Item1": "Microsoft.CodeAnalysis.Common",
+          "Item2": "[3.8.0, 3.8.0]"
+        }
+      ]
+    },
+    "Microsoft.CodeAnalysis.VisualBasic": {
+      "Id": "Microsoft.CodeAnalysis.VisualBasic",
+      "Version": "3.8.0",
+      "Dependencies": [
+        {
+          "Item1": "Microsoft.CodeAnalysis.Common",
+          "Item2": "[3.8.0, 3.8.0]"
+        }
+      ]
+    },
     "Microsoft.CSharp": {
       "Id": "Microsoft.CSharp",
       "Version": "4.5.0",
@@ -585,6 +625,11 @@
         }
       ]
     },
+    "Microsoft.VisualBasic": {
+      "Id": "Microsoft.VisualBasic",
+      "Version": "10.3.0",
+      "Dependencies": []
+    },
     "Microsoft.VisualStudio.OLE.Interop": {
       "Id": "Microsoft.VisualStudio.OLE.Interop",
       "Version": "16.7.30328.74",
@@ -637,6 +682,16 @@
       "Id": "System.Buffers",
       "Version": "4.5.1",
       "Dependencies": []
+    },
+    "System.Collections.Immutable": {
+      "Id": "System.Collections.Immutable",
+      "Version": "5.0.0",
+      "Dependencies": [
+        {
+          "Item1": "System.Memory",
+          "Item2": "[4.5.4, )"
+        }
+      ]
     },
     "System.ComponentModel.Annotations": {
       "Id": "System.ComponentModel.Annotations",
@@ -699,10 +754,30 @@
       "Version": "4.5.0",
       "Dependencies": []
     },
+    "System.Reflection.Metadata": {
+      "Id": "System.Reflection.Metadata",
+      "Version": "5.0.0",
+      "Dependencies": [
+        {
+          "Item1": "System.Collections.Immutable",
+          "Item2": "[5.0.0, )"
+        }
+      ]
+    },
     "System.Runtime.CompilerServices.Unsafe": {
       "Id": "System.Runtime.CompilerServices.Unsafe",
       "Version": "4.7.1",
       "Dependencies": []
+    },
+    "System.Text.Encoding.CodePages": {
+      "Id": "System.Text.Encoding.CodePages",
+      "Version": "4.5.1",
+      "Dependencies": [
+        {
+          "Item1": "System.Runtime.CompilerServices.Unsafe",
+          "Item2": "[4.5.2, )"
+        }
+      ]
     },
     "System.Text.Encodings.Web": {
       "Id": "System.Text.Encodings.Web",
@@ -784,7 +859,7 @@
     },
     "UiPath": {
       "Id": "UiPath",
-      "Version": "20.4.7537.15740",
+      "Version": "21.8.27.26297-preview",
       "Dependencies": []
     },
     "UiPath.Excel.Activities": {
@@ -816,6 +891,11 @@
           "Item2": "[1.0.0, )"
         }
       ]
+    },
+    "UiPath.ImageProcessing": {
+      "Id": "UiPath.ImageProcessing",
+      "Version": "21.8.0-preview",
+      "Dependencies": []
     },
     "UiPath.Mail.Activities": {
       "Id": "UiPath.Mail.Activities",
@@ -859,14 +939,24 @@
         }
       ]
     },
+    "UiPath.OCR.Activities": {
+      "Id": "UiPath.OCR.Activities",
+      "Version": "3.3.0-preview",
+      "Dependencies": [
+        {
+          "Item1": "UiPath.OCR.Contracts",
+          "Item2": "[2.9.0-preview, )"
+        }
+      ]
+    },
     "UiPath.OCR.Contracts": {
       "Id": "UiPath.OCR.Contracts",
-      "Version": "2.6.0",
+      "Version": "2.9.0-preview",
       "Dependencies": []
     },
     "UiPath.Platform": {
       "Id": "UiPath.Platform",
-      "Version": "21.4.0",
+      "Version": "21.8.0-preview",
       "Dependencies": [
         {
           "Item1": "Newtonsoft.Json",
@@ -884,7 +974,7 @@
     },
     "UiPath.System.Activities": {
       "Id": "UiPath.System.Activities",
-      "Version": "21.4.1",
+      "Version": "21.8.0-preview",
       "Dependencies": [
         {
           "Item1": "CsvHelper",
@@ -899,8 +989,28 @@
           "Item2": "[3.1.6, )"
         },
         {
+          "Item1": "Microsoft.CSharp",
+          "Item2": "[4.5.0, )"
+        },
+        {
+          "Item1": "Microsoft.CodeAnalysis.CSharp",
+          "Item2": "[3.8.0, )"
+        },
+        {
+          "Item1": "Microsoft.CodeAnalysis.Common",
+          "Item2": "[3.8.0, )"
+        },
+        {
+          "Item1": "Microsoft.CodeAnalysis.VisualBasic",
+          "Item2": "[3.8.0, )"
+        },
+        {
           "Item1": "Microsoft.Rest.ClientRuntime",
           "Item2": "[2.3.21, )"
+        },
+        {
+          "Item1": "Microsoft.VisualBasic",
+          "Item2": "[10.3.0, )"
         },
         {
           "Item1": "Newtonsoft.Json",
@@ -916,7 +1026,7 @@
         },
         {
           "Item1": "UiPath.Platform",
-          "Item2": "[21.4.0, )"
+          "Item2": "[21.8.0-preview, )"
         },
         {
           "Item1": "UiPath.Telemetry.Client",
@@ -940,35 +1050,27 @@
     },
     "UiPath.UIAutomation.Activities": {
       "Id": "UiPath.UIAutomation.Activities",
-      "Version": "20.4.3",
+      "Version": "21.8.0-preview",
       "Dependencies": [
         {
           "Item1": "UiPath",
-          "Item2": "[20.4.7537.15740, 20.4.7537.15740]"
+          "Item2": "[21.8.27.26297-preview, 21.8.27.26297-preview]"
         },
         {
           "Item1": "UiPath.Vision",
-          "Item2": "[2.0.3, )"
+          "Item2": "[3.1.0-preview, )"
         },
         {
           "Item1": "UiPath.OCR.Contracts",
-          "Item2": "[2.6.0, )"
+          "Item2": "[2.9.0-preview, )"
+        },
+        {
+          "Item1": "UiPath.OCR.Activities",
+          "Item2": "[3.3.0-preview, )"
         },
         {
           "Item1": "UiPath.Platform",
-          "Item2": "[20.4.0, )"
-        },
-        {
-          "Item1": "AvalonEdit",
-          "Item2": "[5.0.3, )"
-        },
-        {
-          "Item1": "Extended.Wpf.Toolkit",
-          "Item2": "[2.8.0, )"
-        },
-        {
-          "Item1": "Humanizer.Core",
-          "Item2": "[2.4.2, )"
+          "Item2": "[21.8.0-preview, )"
         },
         {
           "Item1": "Newtonsoft.Json",
@@ -979,37 +1081,27 @@
           "Item2": "[3.0.10, )"
         },
         {
-          "Item1": "System.ValueTuple",
-          "Item2": "[4.5.0, )"
+          "Item1": "UiPath.ImageProcessing",
+          "Item2": "[21.8.0-preview, )"
         },
         {
           "Item1": "UiPath.Telemetry.Client",
-          "Item2": "[1.2.20, )"
+          "Item2": "[1.3.16, )"
         }
       ]
     },
     "UiPath.Vision": {
       "Id": "UiPath.Vision",
-      "Version": "2.0.3",
+      "Version": "3.1.0-preview",
       "Dependencies": [
         {
           "Item1": "UiPath.OCR.Contracts",
-          "Item2": "[2.6.0, )"
+          "Item2": "[2.8.0-preview, )"
         }
       ]
     }
   },
   "AllPackages": [
-    {
-      "Package": {
-        "Id": "AvalonEdit",
-        "Version": "5.0.3"
-      },
-      "Assemblies": [
-        "C:\\Users\\Alkaiser\\.nuget\\packages\\avalonedit\\5.0.3\\lib\\Net40\\ICSharpCode.AvalonEdit.dll"
-      ],
-      "Path": "C:\\Users\\Alkaiser\\.nuget\\packages\\avalonedit\\5.0.3"
-    },
     {
       "Package": {
         "Id": "ClosedXML",
@@ -1039,21 +1131,6 @@
         "C:\\Users\\Alkaiser\\.nuget\\packages\\documentformat.openxml\\2.5.0\\lib\\DocumentFormat.OpenXml.dll"
       ],
       "Path": "C:\\Users\\Alkaiser\\.nuget\\packages\\documentformat.openxml\\2.5.0"
-    },
-    {
-      "Package": {
-        "Id": "Extended.Wpf.Toolkit",
-        "Version": "2.8.0"
-      },
-      "Assemblies": [
-        "C:\\Users\\Alkaiser\\.nuget\\packages\\extended.wpf.toolkit\\2.8.0\\lib\\net40\\Xceed.Wpf.AvalonDock.dll",
-        "C:\\Users\\Alkaiser\\.nuget\\packages\\extended.wpf.toolkit\\2.8.0\\lib\\net40\\Xceed.Wpf.AvalonDock.Themes.Aero.dll",
-        "C:\\Users\\Alkaiser\\.nuget\\packages\\extended.wpf.toolkit\\2.8.0\\lib\\net40\\Xceed.Wpf.AvalonDock.Themes.Metro.dll",
-        "C:\\Users\\Alkaiser\\.nuget\\packages\\extended.wpf.toolkit\\2.8.0\\lib\\net40\\Xceed.Wpf.AvalonDock.Themes.VS2010.dll",
-        "C:\\Users\\Alkaiser\\.nuget\\packages\\extended.wpf.toolkit\\2.8.0\\lib\\net40\\Xceed.Wpf.DataGrid.dll",
-        "C:\\Users\\Alkaiser\\.nuget\\packages\\extended.wpf.toolkit\\2.8.0\\lib\\net40\\Xceed.Wpf.Toolkit.dll"
-      ],
-      "Path": "C:\\Users\\Alkaiser\\.nuget\\packages\\extended.wpf.toolkit\\2.8.0"
     },
     {
       "Package": {
@@ -1116,16 +1193,6 @@
         "C:\\Users\\Alkaiser\\.nuget\\packages\\google.apis.peopleservice.v1\\1.43.0.1876\\lib\\net45\\Google.Apis.PeopleService.v1.dll"
       ],
       "Path": "C:\\Users\\Alkaiser\\.nuget\\packages\\google.apis.peopleservice.v1\\1.43.0.1876"
-    },
-    {
-      "Package": {
-        "Id": "Humanizer.Core",
-        "Version": "2.4.2"
-      },
-      "Assemblies": [
-        "C:\\Users\\Alkaiser\\.nuget\\packages\\humanizer.core\\2.4.2\\lib\\netstandard2.0\\Humanizer.dll"
-      ],
-      "Path": "C:\\Users\\Alkaiser\\.nuget\\packages\\humanizer.core\\2.4.2"
     },
     {
       "Package": {
@@ -1236,6 +1303,44 @@
         "C:\\Users\\Alkaiser\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\lib\\net461\\Microsoft.Bcl.AsyncInterfaces.dll"
       ],
       "Path": "C:\\Users\\Alkaiser\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1"
+    },
+    {
+      "Package": {
+        "Id": "Microsoft.CodeAnalysis.Analyzers",
+        "Version": "3.0.0"
+      },
+      "Assemblies": [],
+      "Path": "C:\\Users\\Alkaiser\\.nuget\\packages\\microsoft.codeanalysis.analyzers\\3.0.0"
+    },
+    {
+      "Package": {
+        "Id": "Microsoft.CodeAnalysis.Common",
+        "Version": "3.8.0"
+      },
+      "Assemblies": [
+        "C:\\Users\\Alkaiser\\.nuget\\packages\\microsoft.codeanalysis.common\\3.8.0\\lib\\netstandard2.0\\Microsoft.CodeAnalysis.dll"
+      ],
+      "Path": "C:\\Users\\Alkaiser\\.nuget\\packages\\microsoft.codeanalysis.common\\3.8.0"
+    },
+    {
+      "Package": {
+        "Id": "Microsoft.CodeAnalysis.CSharp",
+        "Version": "3.8.0"
+      },
+      "Assemblies": [
+        "C:\\Users\\Alkaiser\\.nuget\\packages\\microsoft.codeanalysis.csharp\\3.8.0\\lib\\netstandard2.0\\Microsoft.CodeAnalysis.CSharp.dll"
+      ],
+      "Path": "C:\\Users\\Alkaiser\\.nuget\\packages\\microsoft.codeanalysis.csharp\\3.8.0"
+    },
+    {
+      "Package": {
+        "Id": "Microsoft.CodeAnalysis.VisualBasic",
+        "Version": "3.8.0"
+      },
+      "Assemblies": [
+        "C:\\Users\\Alkaiser\\.nuget\\packages\\microsoft.codeanalysis.visualbasic\\3.8.0\\lib\\netstandard2.0\\Microsoft.CodeAnalysis.VisualBasic.dll"
+      ],
+      "Path": "C:\\Users\\Alkaiser\\.nuget\\packages\\microsoft.codeanalysis.visualbasic\\3.8.0"
     },
     {
       "Package": {
@@ -1380,6 +1485,16 @@
     },
     {
       "Package": {
+        "Id": "Microsoft.VisualBasic",
+        "Version": "10.3.0"
+      },
+      "Assemblies": [
+        "C:\\Users\\Alkaiser\\.nuget\\packages\\microsoft.visualbasic\\10.3.0\\lib\\net45\\_._"
+      ],
+      "Path": "C:\\Users\\Alkaiser\\.nuget\\packages\\microsoft.visualbasic\\10.3.0"
+    },
+    {
+      "Package": {
         "Id": "Microsoft.VisualStudio.OLE.Interop",
         "Version": "16.7.30328.74"
       },
@@ -1453,6 +1568,16 @@
     },
     {
       "Package": {
+        "Id": "System.Collections.Immutable",
+        "Version": "5.0.0"
+      },
+      "Assemblies": [
+        "C:\\Users\\Alkaiser\\.nuget\\packages\\system.collections.immutable\\5.0.0\\lib\\net461\\System.Collections.Immutable.dll"
+      ],
+      "Path": "C:\\Users\\Alkaiser\\.nuget\\packages\\system.collections.immutable\\5.0.0"
+    },
+    {
+      "Package": {
         "Id": "System.ComponentModel.Annotations",
         "Version": "4.7.0"
       },
@@ -1523,6 +1648,16 @@
     },
     {
       "Package": {
+        "Id": "System.Reflection.Metadata",
+        "Version": "5.0.0"
+      },
+      "Assemblies": [
+        "C:\\Users\\Alkaiser\\.nuget\\packages\\system.reflection.metadata\\5.0.0\\lib\\net461\\System.Reflection.Metadata.dll"
+      ],
+      "Path": "C:\\Users\\Alkaiser\\.nuget\\packages\\system.reflection.metadata\\5.0.0"
+    },
+    {
+      "Package": {
         "Id": "System.Runtime.CompilerServices.Unsafe",
         "Version": "4.7.1"
       },
@@ -1530,6 +1665,16 @@
         "C:\\Users\\Alkaiser\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.7.1\\lib\\net461\\System.Runtime.CompilerServices.Unsafe.dll"
       ],
       "Path": "C:\\Users\\Alkaiser\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.7.1"
+    },
+    {
+      "Package": {
+        "Id": "System.Text.Encoding.CodePages",
+        "Version": "4.5.1"
+      },
+      "Assemblies": [
+        "C:\\Users\\Alkaiser\\.nuget\\packages\\system.text.encoding.codepages\\4.5.1\\lib\\net461\\System.Text.Encoding.CodePages.dll"
+      ],
+      "Path": "C:\\Users\\Alkaiser\\.nuget\\packages\\system.text.encoding.codepages\\4.5.1"
     },
     {
       "Package": {
@@ -1594,12 +1739,14 @@
     {
       "Package": {
         "Id": "UiPath",
-        "Version": "20.4.7537.15740"
+        "Version": "21.8.27.26297-preview"
       },
       "Assemblies": [
-        "C:\\Users\\Alkaiser\\.nuget\\packages\\uipath\\20.4.7537.15740\\lib\\UiPath.Interop.dll"
+        "C:\\Users\\Alkaiser\\.nuget\\packages\\uipath\\21.8.27.26297-preview\\lib\\net45\\System.Runtime.CompilerServices.Unsafe.dll",
+        "C:\\Users\\Alkaiser\\.nuget\\packages\\uipath\\21.8.27.26297-preview\\lib\\net45\\System.Threading.Tasks.Extensions.dll",
+        "C:\\Users\\Alkaiser\\.nuget\\packages\\uipath\\21.8.27.26297-preview\\lib\\net45\\UiPath.Interop.dll"
       ],
-      "Path": "C:\\Users\\Alkaiser\\.nuget\\packages\\uipath\\20.4.7537.15740"
+      "Path": "C:\\Users\\Alkaiser\\.nuget\\packages\\uipath\\21.8.27.26297-preview"
     },
     {
       "Package": {
@@ -1616,6 +1763,16 @@
     },
     {
       "Package": {
+        "Id": "UiPath.ImageProcessing",
+        "Version": "21.8.0-preview"
+      },
+      "Assemblies": [
+        "C:\\Users\\Alkaiser\\.nuget\\packages\\uipath.imageprocessing\\21.8.0-preview\\lib\\net461\\UiPath.ImageProcessingInterop.dll"
+      ],
+      "Path": "C:\\Users\\Alkaiser\\.nuget\\packages\\uipath.imageprocessing\\21.8.0-preview"
+    },
+    {
+      "Package": {
         "Id": "UiPath.Mail.Activities",
         "Version": "1.10.5"
       },
@@ -1629,35 +1786,47 @@
     },
     {
       "Package": {
-        "Id": "UiPath.OCR.Contracts",
-        "Version": "2.6.0"
+        "Id": "UiPath.OCR.Activities",
+        "Version": "3.3.0-preview"
       },
       "Assemblies": [
-        "C:\\Users\\Alkaiser\\.nuget\\packages\\uipath.ocr.contracts\\2.6.0\\lib\\net461\\UiPath.OCR.Contracts.dll"
+        "C:\\Users\\Alkaiser\\.nuget\\packages\\uipath.ocr.activities\\3.3.0-preview\\lib\\net461\\UiPath.OCR.Activities.Design.dll",
+        "C:\\Users\\Alkaiser\\.nuget\\packages\\uipath.ocr.activities\\3.3.0-preview\\lib\\net461\\UiPath.OCR.Activities.dll",
+        "C:\\Users\\Alkaiser\\.nuget\\packages\\uipath.ocr.activities\\3.3.0-preview\\lib\\net461\\UiPath.OCR.Core.dll"
       ],
-      "Path": "C:\\Users\\Alkaiser\\.nuget\\packages\\uipath.ocr.contracts\\2.6.0"
+      "Path": "C:\\Users\\Alkaiser\\.nuget\\packages\\uipath.ocr.activities\\3.3.0-preview"
+    },
+    {
+      "Package": {
+        "Id": "UiPath.OCR.Contracts",
+        "Version": "2.9.0-preview"
+      },
+      "Assemblies": [
+        "C:\\Users\\Alkaiser\\.nuget\\packages\\uipath.ocr.contracts\\2.9.0-preview\\lib\\net461\\UiPath.OCR.Contracts.dll"
+      ],
+      "Path": "C:\\Users\\Alkaiser\\.nuget\\packages\\uipath.ocr.contracts\\2.9.0-preview"
     },
     {
       "Package": {
         "Id": "UiPath.Platform",
-        "Version": "21.4.0"
+        "Version": "21.8.0-preview"
       },
       "Assemblies": [
-        "C:\\Users\\Alkaiser\\.nuget\\packages\\uipath.platform\\21.4.0\\lib\\net461\\UiPath.Platform.dll"
+        "C:\\Users\\Alkaiser\\.nuget\\packages\\uipath.platform\\21.8.0-preview\\lib\\net461\\UiPath.Platform.dll"
       ],
-      "Path": "C:\\Users\\Alkaiser\\.nuget\\packages\\uipath.platform\\21.4.0"
+      "Path": "C:\\Users\\Alkaiser\\.nuget\\packages\\uipath.platform\\21.8.0-preview"
     },
     {
       "Package": {
         "Id": "UiPath.System.Activities",
-        "Version": "21.4.1"
+        "Version": "21.8.0-preview"
       },
       "Assemblies": [
-        "C:\\Users\\Alkaiser\\.nuget\\packages\\uipath.system.activities\\21.4.1\\lib\\net461\\UiPath.OrchestratorClient.dll",
-        "C:\\Users\\Alkaiser\\.nuget\\packages\\uipath.system.activities\\21.4.1\\lib\\net461\\UiPath.System.Activities.Design.dll",
-        "C:\\Users\\Alkaiser\\.nuget\\packages\\uipath.system.activities\\21.4.1\\lib\\net461\\UiPath.System.Activities.dll"
+        "C:\\Users\\Alkaiser\\.nuget\\packages\\uipath.system.activities\\21.8.0-preview\\lib\\net461\\UiPath.OrchestratorClient.dll",
+        "C:\\Users\\Alkaiser\\.nuget\\packages\\uipath.system.activities\\21.8.0-preview\\lib\\net461\\UiPath.System.Activities.Design.dll",
+        "C:\\Users\\Alkaiser\\.nuget\\packages\\uipath.system.activities\\21.8.0-preview\\lib\\net461\\UiPath.System.Activities.dll"
       ],
-      "Path": "C:\\Users\\Alkaiser\\.nuget\\packages\\uipath.system.activities\\21.4.1"
+      "Path": "C:\\Users\\Alkaiser\\.nuget\\packages\\uipath.system.activities\\21.8.0-preview"
     },
     {
       "Package": {
@@ -1672,39 +1841,36 @@
     {
       "Package": {
         "Id": "UiPath.UIAutomation.Activities",
-        "Version": "20.4.3"
+        "Version": "21.8.0-preview"
       },
       "Assemblies": [
-        "C:\\Users\\Alkaiser\\.nuget\\packages\\uipath.uiautomation.activities\\20.4.3\\lib\\net461\\ActiproSoftware.DataGrid.Contrib.Wpf.dll",
-        "C:\\Users\\Alkaiser\\.nuget\\packages\\uipath.uiautomation.activities\\20.4.3\\lib\\net461\\ActiproSoftware.Docking.Wpf.dll",
-        "C:\\Users\\Alkaiser\\.nuget\\packages\\uipath.uiautomation.activities\\20.4.3\\lib\\net461\\ActiproSoftware.Editors.Wpf.dll",
-        "C:\\Users\\Alkaiser\\.nuget\\packages\\uipath.uiautomation.activities\\20.4.3\\lib\\net461\\ActiproSoftware.Ribbon.Wpf.dll",
-        "C:\\Users\\Alkaiser\\.nuget\\packages\\uipath.uiautomation.activities\\20.4.3\\lib\\net461\\ActiproSoftware.Shared.Wpf.dll",
-        "C:\\Users\\Alkaiser\\.nuget\\packages\\uipath.uiautomation.activities\\20.4.3\\lib\\net461\\ActiproSoftware.SyntaxEditor.Addons.DotNet.Wpf.dll",
-        "C:\\Users\\Alkaiser\\.nuget\\packages\\uipath.uiautomation.activities\\20.4.3\\lib\\net461\\ActiproSoftware.SyntaxEditor.Wpf.dll",
-        "C:\\Users\\Alkaiser\\.nuget\\packages\\uipath.uiautomation.activities\\20.4.3\\lib\\net461\\ActiproSoftware.Text.Addons.DotNet.Wpf.dll",
-        "C:\\Users\\Alkaiser\\.nuget\\packages\\uipath.uiautomation.activities\\20.4.3\\lib\\net461\\ActiproSoftware.Text.LLParser.Wpf.dll",
-        "C:\\Users\\Alkaiser\\.nuget\\packages\\uipath.uiautomation.activities\\20.4.3\\lib\\net461\\ActiproSoftware.Text.Wpf.dll",
-        "C:\\Users\\Alkaiser\\.nuget\\packages\\uipath.uiautomation.activities\\20.4.3\\lib\\net461\\ActiproSoftware.Wizard.Wpf.dll",
-        "C:\\Users\\Alkaiser\\.nuget\\packages\\uipath.uiautomation.activities\\20.4.3\\lib\\net461\\UiPath.CV.Activities.Design.dll",
-        "C:\\Users\\Alkaiser\\.nuget\\packages\\uipath.uiautomation.activities\\20.4.3\\lib\\net461\\UiPath.CV.Activities.dll",
-        "C:\\Users\\Alkaiser\\.nuget\\packages\\uipath.uiautomation.activities\\20.4.3\\lib\\net461\\UiPath.CV.dll",
-        "C:\\Users\\Alkaiser\\.nuget\\packages\\uipath.uiautomation.activities\\20.4.3\\lib\\net461\\UiPath.UIAutomation.Activities.Design.dll",
-        "C:\\Users\\Alkaiser\\.nuget\\packages\\uipath.uiautomation.activities\\20.4.3\\lib\\net461\\UiPath.UiAutomation.Activities.dll",
-        "C:\\Users\\Alkaiser\\.nuget\\packages\\uipath.uiautomation.activities\\20.4.3\\lib\\net461\\UiPath.Wizards.dll"
+        "C:\\Users\\Alkaiser\\.nuget\\packages\\uipath.uiautomation.activities\\21.8.0-preview\\lib\\net461\\UiPath.CV.Activities.Design.dll",
+        "C:\\Users\\Alkaiser\\.nuget\\packages\\uipath.uiautomation.activities\\21.8.0-preview\\lib\\net461\\UiPath.CV.Activities.dll",
+        "C:\\Users\\Alkaiser\\.nuget\\packages\\uipath.uiautomation.activities\\21.8.0-preview\\lib\\net461\\UiPath.CV.dll",
+        "C:\\Users\\Alkaiser\\.nuget\\packages\\uipath.uiautomation.activities\\21.8.0-preview\\lib\\net461\\UiPath.UIAutomation.Activities.Design.dll",
+        "C:\\Users\\Alkaiser\\.nuget\\packages\\uipath.uiautomation.activities\\21.8.0-preview\\lib\\net461\\UiPath.UiAutomation.Activities.dll",
+        "C:\\Users\\Alkaiser\\.nuget\\packages\\uipath.uiautomation.activities\\21.8.0-preview\\lib\\net461\\UiPath.UIAutomationCore.dll",
+        "C:\\Users\\Alkaiser\\.nuget\\packages\\uipath.uiautomation.activities\\21.8.0-preview\\lib\\net461\\UiPath.UIAutomationNext.Activities.Design.dll",
+        "C:\\Users\\Alkaiser\\.nuget\\packages\\uipath.uiautomation.activities\\21.8.0-preview\\lib\\net461\\UiPath.UIAutomationNext.Activities.dll",
+        "C:\\Users\\Alkaiser\\.nuget\\packages\\uipath.uiautomation.activities\\21.8.0-preview\\lib\\net461\\UiPath.UIAutomationNext.dll",
+        "C:\\Users\\Alkaiser\\.nuget\\packages\\uipath.uiautomation.activities\\21.8.0-preview\\lib\\net461\\UiPath.Wizards.dll"
       ],
-      "Path": "C:\\Users\\Alkaiser\\.nuget\\packages\\uipath.uiautomation.activities\\20.4.3"
+      "Path": "C:\\Users\\Alkaiser\\.nuget\\packages\\uipath.uiautomation.activities\\21.8.0-preview"
     },
     {
       "Package": {
         "Id": "UiPath.Vision",
-        "Version": "2.0.3"
+        "Version": "3.1.0-preview"
       },
       "Assemblies": [
-        "C:\\Users\\Alkaiser\\.nuget\\packages\\uipath.vision\\2.0.3\\lib\\net461\\UiPath.Vision.Core.dll",
-        "C:\\Users\\Alkaiser\\.nuget\\packages\\uipath.vision\\2.0.3\\lib\\net461\\UiPath.Vision.dll"
+        "C:\\Users\\Alkaiser\\.nuget\\packages\\uipath.vision\\3.1.0-preview\\lib\\net461\\UiPath.Vision.AzureComputerVision.dll",
+        "C:\\Users\\Alkaiser\\.nuget\\packages\\uipath.vision\\3.1.0-preview\\lib\\net461\\UiPath.Vision.Core.dll",
+        "C:\\Users\\Alkaiser\\.nuget\\packages\\uipath.vision\\3.1.0-preview\\lib\\net461\\UiPath.Vision.dll",
+        "C:\\Users\\Alkaiser\\.nuget\\packages\\uipath.vision\\3.1.0-preview\\lib\\net461\\UiPath.Vision.GoogleCloud.dll",
+        "C:\\Users\\Alkaiser\\.nuget\\packages\\uipath.vision\\3.1.0-preview\\lib\\net461\\UiPath.Vision.Microsoft.dll",
+        "C:\\Users\\Alkaiser\\.nuget\\packages\\uipath.vision\\3.1.0-preview\\lib\\net461\\UiPath.Vision.Tesseract.dll"
       ],
-      "Path": "C:\\Users\\Alkaiser\\.nuget\\packages\\uipath.vision\\2.0.3"
+      "Path": "C:\\Users\\Alkaiser\\.nuget\\packages\\uipath.vision\\3.1.0-preview"
     }
   ]
 }
